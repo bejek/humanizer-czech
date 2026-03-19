@@ -1,6 +1,6 @@
 # 🇨🇿 Humanizer Czech
 
-![Czech Humanizer - Proven results](assets/czech-humanizer.jpg)
+![Czech Humanizer - Proven results](assets/czech-humanizer.png)
 
 **Odstraň znaky AI-generovaného psaní z českého textu.**
 
