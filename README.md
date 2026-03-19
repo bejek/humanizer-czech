@@ -35,9 +35,8 @@ Znáte ten dlouhý pomlčkový znak **—** co je doslova v každém AI textu? T
 **Výstup (styl: přátelský):**
 > AI v podnikání řeší firmy teď, ne za pět let. Gartner říká, že ji testuje 65 % středních firem v Evropě, ale upřímně - většina z nich teprve zkouší, co to vlastně umí.
 
+## 27 detekovaných vzorců
 
-<details>
-<summary><b>27 detekovaných vzorců</b></summary>
 | # | Vzorec | Příklad |
 |---|--------|---------|
 | 1 | Nafouklé otevírací fráze | "V dnešní době..." |
@@ -65,10 +64,8 @@ Znáte ten dlouhý pomlčkový znak **—** co je doslova v každém AI textu? T
 | 23 | Falešná vyváženost | "Na jedné straně... na druhé straně..." |
 | 24 | Ukazovací zájmena | "Tento problém... Tato situace... Tyto faktory..." |
 | 25 | Copula avoidance | "Představuje klíčový nástroj" místo "je" |
-| 26 | Sendvičová struktura | Úvod – 3 body – závěr vždy |
+| 26 | Sendvičová struktura | Úvod - 3 body - závěr vždy |
 | 27 | Tautologická zdvojení | "různé a rozmanité", "efektivní a účinné" |
-</details>
-
 
 > **Výsledky detektorů:** Vzali jsme extra těžce AI-generovaný text, u kterého všechny detektory hlásily, že je na 100 % generovaný AI. Prohnali jsme ho tímto humanizerem a nechali otestovat top detektory. Výsledek? 
 Copyleaks: 0% AI. ✅
