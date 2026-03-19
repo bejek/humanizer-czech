@@ -4,8 +4,13 @@
 
 První humanizer skill zaměřený specificky na český jazyk. Detekuje 27 vzorců typických pro AI-generovanou češtinu a přepisuje text tak, aby zněl přirozeně a lidsky.
 
+## Smrt em dashi
+
+Znáte ten dlouhý pomlčkový znak **—** co je doslova v každém AI textu? Ten, co normální Čech nikdy v životě nenapíše, protože na klávesnici prostě zmáčkne `-`? Tak ten tady automaticky mizí. Je to na první pohled nejviditelnější znak AI generovaného textu a je úplně všude. Tohle je první humanizer, který ho řeší natvrdo jako globální pravidlo.
+
 ## Co to dělá
 
+- **Zakazuje em dash (—)** - nahrazuje ho běžnou pomlčkou (-), kterou reálně píše každý Čech
 - Identifikuje české AI klišé ("V dnešní době", "Je důležité zdůraznit", "Závěrem lze konstatovat"...)
 - Detekuje anglický slovosled, kalky, nominalizaci a další česko-specifické vzorce
 - Odstraňuje nafouklý jazyk, trpný rod, vágní atribuce
