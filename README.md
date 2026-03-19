@@ -1,8 +1,12 @@
 # 🇨🇿 Humanizer Czech
 
+![Czech Humanizer - Proven results](assets/czech-humanizer.jpg)
+
 **Odstraň znaky AI-generovaného psaní z českého textu.**
 
 První humanizer skill zaměřený specificky na český jazyk. Detekuje 27 vzorců typických pro AI-generovanou češtinu a přepisuje text tak, aby zněl přirozeně a lidsky.
+
+> **Výsledky detektorů:** Vzali jsme těžce AI-generovaný text (19 z 27 vzorců detekováno), prohnali ho humanizerem a nechali otestovat top detektory. Copyleaks: 0% AI. GPTZero: "entirely human". Grammarly: 0% AI. Žádný detektor nepoznal, že text prošel přes AI.
 
 ## Smrt em dashi
 
@@ -49,7 +53,7 @@ Pak v Claude Code použij `/humanizer-czech` následovaný textem k humanizaci.
 > V dnešní rychle se měnící digitální době je stále důležitější věnovat pozornost oblasti umělé inteligence. Je důležité zdůraznit, že AI představuje revoluční technologii, která zásadním způsobem mění krajinu moderního podnikání.
 
 **Výstup (styl: přátelský):**
-> AI v podnikání řeší firmy teď, ne za pět let. Gartner říká, že ji testuje 65 % středních firem v Evropě, ale upřímně — většina z nich teprve zkouší, co to vlastně umí.
+> AI v podnikání řeší firmy teď, ne za pět let. Gartner říká, že ji testuje 65 % středních firem v Evropě, ale upřímně - většina z nich teprve zkouší, co to vlastně umí.
 
 ## 27 detekovaných vzorců
 
@@ -85,14 +89,14 @@ Pak v Claude Code použij `/humanizer-czech` následovaný textem k humanizaci.
 
 ## 4 styly výstupu
 
-- **Akademický** — odborný, precizní, pro výzkum a akademické práce
-- **Formální** — profesionální, pro firemní komunikaci a produktové texty
-- **Přátelský** — teplý tón, pro blogy, newslettery, sociální sítě
-- **Konverzační** — neformální, jako bys psal kamarádovi
+- **Akademický** - odborný, precizní, pro výzkum a akademické práce
+- **Formální** - profesionální, pro firemní komunikaci a produktové texty
+- **Přátelský** - teplý tón, pro blogy, newslettery, sociální sítě
+- **Konverzační** - neformální, jako bys psal kamarádovi
 
 ## Poděkování
 
-Inspirováno projektem [humanizer](https://github.com/blader/humanizer) od [@blader](https://github.com/blader) — původní anglická verze s 10k+ stars. Česká verze přidává 27 vzorců specifických pro český jazyk a systém 4 stylů výstupu.
+Inspirováno projektem [humanizer](https://github.com/blader/humanizer) od [@blader](https://github.com/blader) - původní anglická verze s 10k+ stars. Česká verze přidává 27 vzorců specifických pro český jazyk a systém 4 stylů výstupu.
 
 Vychází také z [Wikipedia: Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing).
 
@@ -100,7 +104,7 @@ Vzorce 17-27 identifikovány cross-referencí výstupů z Claude, ChatGPT a Gemi
 
 ## Licence
 
-[MIT](LICENSE) — používej jak chceš, komerčně i nekomerčně.
+[MIT](LICENSE) - používej jak chceš, komerčně i nekomerčně.
 
 ---
 
