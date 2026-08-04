@@ -442,6 +442,98 @@ Toto jsou vzorce specifické pro AI-generovaný český text. Jsou to věci, kte
 
 ---
 
+### 28. Negativní paralelismy a koncové negace
+
+**Problém:** AI nadužívá konstrukce "nejde jen o..., je to..." a "nejen... ale i...". Stejně tak lepí na konec věty useknuté negace ("žádné hádání", "žádný zbytečný pohyb") místo pořádné věty.
+
+**Před:**
+> Nejde jen o rytmus pod vokálem, je to součást té agrese a atmosféry. Není to jen píseň, je to prohlášení.
+
+**Po:**
+> Ten těžký beat dotváří agresivní tón skladby.
+
+---
+
+### 29. Psaní ukotvené ve změně (diff-anchored)
+
+**Problém:** Text popisuje změnu místo věci samotné - jako by vyprávěl, co se oproti minulému stavu upravilo. Pokud dokument není ze své podstaty vázaný na verzi (changelog, poznámky k vydání), měl by dávat smysl i bez toho, aby čtenář věděl, co se naposledy změnilo.
+
+**Před:**
+> Tato funkce byla přidána, aby nahradila předchozí postup procházení všech položek, který způsoboval kvadratickou složitost.
+
+**Po:**
+> Tato funkce používá hašovací mapu pro vyhledávání v konstantním čase.
+
+---
+
+### 30. Vyrobené pointy a staccato drama
+
+**Problém:** AI dává každé větě dopadnout jako údernou pointu a pak skládá sérii krátkých oznamovacích fragmentů, aby uměle vyrobila drama. Jedna krátká věta pro zdůraznění je v pořádku, série za sebou už zní vyrobeně.
+
+**Před:**
+> Pak přišla nová metoda. Neměla ráda symetrii. Žádný estetický předsudek. Žádná nostalgie po lidském vkusu. Stará pravidla padla.
+
+**Po:**
+> Nová metoda změnila hledání, protože neupřednostňovala symetrii ani lidsky vypadající řešení. Část starých předpokladů tím přestala platit.
+
+---
+
+### 31. Aforismové formulky
+
+**Slova/fráze k zachycení:** X je jazykem Y, X je měnou Y, X je architekturou Y, X se stává pastí, X není nástroj, ale zrcadlo
+
+**Problém:** AI proměňuje běžná tvrzení na znovupoužitelné aforismy, které znějí hluboce, ale nepřidávají přesnost. Nahraď formulku konkrétním tvrzením, ke kterému směřuje.
+
+**Před:**
+> Symetrie je jazykem důvěry. Efektivita se stává pastí, když týmy zapomenou na lidskou vrstvu.
+
+**Po:**
+> Symetrické rozvržení působí na uživatele předvídatelněji. Týmy dokážou procesy přeoptimalizovat a minout se tomu, jak je lidé skutečně používají.
+
+---
+
+### 32. Konverzační řečnické otvíráky
+
+**Slova/fráze k zachycení:** Upřímně?, Podívej, Jde o to, že, Řeknu to na rovinu, Buďme upřímní - když stojí jako samostatný háček nebo falešně důvěrná pauza před obyčejnou pointou
+
+**Problém:** AI otevírá falešně důvěrným háčkem, aby vyrobila blízkost před banálním tvrzením. Prozradí se tou divadelní pauzou: jednoslovná otázka nebo vsuvka, pak "skutečná" odpověď. Člověk, který je upřímný, obvykle rovnou řekne tu věc.
+
+**Před:**
+> Vyplatí se to za tu cenu? Upřímně? Záleží na tom, jak často to budeš používat.
+
+**Po:**
+> Jestli se to vyplatí, záleží na tom, jak často to budeš používat.
+
+---
+
+## CO NEOPRAVOVAT (ochrana proti over-humanizaci)
+
+I čistý lidský text může splňovat některé z výše uvedených vzorců bez jakéhokoli zásahu AI. Než začneš přepisovat, ověř si, jestli nekácíš legitimní prózu. Tyto věci samy o sobě NEJSOU spolehlivým znakem AI:
+
+- **Dokonalá gramatika a konzistentní styl.** Mnozí autoři jsou profesionálové nebo prošli redakcí. Vybroušenost se nerovná AI.
+- **Míchání hovorového a formálního registru.** Často signalizuje člověka z technického oboru nebo mladšího autora, ne chatbota.
+- **"Suchá" nebo "robotická" próza.** AI má *konkrétní* projevy. Obecná strohost bez těch konkrétních projevů je jen strohé psaní.
+- **Formální nebo odborný slovník.** AI nadužívá *konkrétní* nafouklá slova, ne každé odborné slovo.
+- **Běžná přechodová slova izolovaně.** "Navíc", "kromě toho" jsou podezřelé jen když se kupí. Jedno "nicméně" není projev AI.
+- **Jedna krátká úderná věta.** Lidé používají useknuté věty pro zdůraznění pointy. Staccato drama (vzor 30) označ jen když je několik krátkých fragmentů za sebou.
+- **Tvrzení bez zdroje.** Většina textu na webu je bez citací. Chybějící zdroj nic nedokazuje.
+- **Text z druhé ruky.** Nepřepisuj sledované fráze uvnitř citací, názvů, vlastních jmen nebo příkladů, kde se fráze rozebírá, ne používá.
+
+Když si nejsi jistý, hledej **shluky** projevů, ne izolované. Jedna dlouhá pomlčka neznamená nic; dlouhá pomlčka + pravidlo tří + "pestrá tapiserie" + sekce "Závěr" je přiznání.
+
+## ZNAKY LIDSKÉHO PSANÍ (zachovej je)
+
+Když vidíš tyto věci, přikloň se k tomu nechat prózu na pokoji - jsou to důkazy skutečného člověka za textem a přehnané editování zničí přesně to, co dělá text lidským:
+
+- **Konkrétní, neobvyklý, těžko vymyslitelný detail.** Skutečná adresa. Zvláštní citát. AI zaokrouhluje konkrétnosti, člověk si je hromadí.
+- **Smíšené pocity a nevyřešené napětí.** "Myslím, že je to většinou dobré, ale něco mi na tom vadí a nevím přesně co." AI defaultně tvoří čisté, jednoznačné závěry.
+- **Dobové odkazy.** Slang, memy nebo vnitřní vtipy vázané na konkrétní rok a subkulturu. Modely zaostávají o rok i víc.
+- **Autorská rozhodnutí v první osobě, která autor umí obhájit.**
+- **Proměnlivá délka vět.** Skutečné psaní střídá krátké a dlouhé. AI inklinuje k rovnoměrné, středně dlouhé kadenci.
+- **Skutečné odbočky, vsuvky nebo sebeopravy.** Modely se takto málokdy přeruší.
+
+---
+
 ## OSOBNOST A DUŠE
 
 Odstranit AI vzorce je jen polovina práce. Sterilní text bez osobnosti je stejně podezřelý. Dobrý text má za sebou člověka.
