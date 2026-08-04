@@ -119,6 +119,8 @@ Inspirováno projektem [humanizer](https://github.com/blader/humanizer) od [@bla
 
 Vychází také z [Wikipedia: Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing).
 
+Existuje také **slovenská adaptace** tohoto projektu: [humanizer-slovak](https://github.com/ZoloZiak/humanizer-slovak). Vychází z tvých 27 vzorců a přidává 7 gramatických vzorců specifických pro slovenštinu (bohemismy, rytmický zákon, vokalizace předložek vo/so/zo/ku, měkké ľ atd.).
+
 Vzorce 17-27 identifikovány cross-referencí výstupů z Claude, ChatGPT a Gemini.
 
 ---
