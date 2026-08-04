@@ -26,6 +26,7 @@ Pečlivě sestavený humanizer skill zaměřený specificky na český jazyk. De
 - **Detekuje anglický slovosled**, kalky, nominalizaci a další česko-specifické vzorce
 - **Odstraňuje nafouklý jazyk**, trpný rod, vágní atribuce
 - **Přidává osobnost** a autentický hlas
+- **Chrání před over-humanizací** - seznam "co NEopravovat" (dokonalá gramatika ≠ AI) + znaky lidského psaní
 - **Dual-pass systém**: přepíše → zkontroluje → opraví znovu
 - **4 styly výstupu:** akademický, formální, přátelský, konverzační
 
@@ -44,7 +45,7 @@ Je to na první pohled nejviditelnější znak AI generovaného textu a je úpln
 > AI v podnikání řeší firmy teď, ne za pět let. Gartner říká, že ji testuje 65 % středních firem v Evropě, ale upřímně - většina z nich teprve zkouší, co to vlastně umí.
 
 
-## 27 detekovaných vzorců
+## 32 detekovaných vzorců
 
 | # | Vzorec | Příklad |
 |---|--------|---------|
@@ -75,6 +76,11 @@ Je to na první pohled nejviditelnější znak AI generovaného textu a je úpln
 | 25 | Copula avoidance | "Představuje klíčový nástroj" místo "je" |
 | 26 | Sendvičová struktura | Úvod - 3 body - závěr vždy |
 | 27 | Tautologická zdvojení | "různé a rozmanité", "efektivní a účinné" |
+| 28 | Negativní paralelismy | "nejde jen o…, je to…", "nejen… ale i…" |
+| 29 | Diff-anchored psaní | popisuje změnu místo věci samotné |
+| 30 | Vyrobené pointy / staccato drama | série krátkých fragmentů na umělé drama |
+| 31 | Aforismové formulky | "X je jazykem Y", "X se stává pastí" |
+| 32 | Konverzační řečnické otvíráky | "Upřímně?", "Podívej", "Jde o to, že" |
 
 
 > [!NOTE]
